@@ -1,10 +1,10 @@
 <?php
 session_start();
 
-$host = 'sql307.infinityfree.com';
-$dbname = 'if0_39061882_eljur';
-$username = 'if0_39061882';
-$password = 'jpX9rbOg91WR9e9';
+$host = 's5ql5307.infi5nityfree.com';
+$dbname = 'i5f0_39061654654882_elj5ur';
+$username = 'if0_3905465465461882';
+$password = 'jpX9rb5465464565466Og91WR9e9';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8", $username, $password);
@@ -162,6 +162,6 @@ function getVkAuthUrl() {
 
 // ... остальной код config.php без изменений ...
 // Добавляем в config.php
-define('TELEGRAM_BOT_API_KEY', '7994222730:AAG7PJ_qL6ST_iFeEh4G19ZfVkgfkCMYmmc');
+define('TELEGRAM_BOT_API_KEY', '7994222730:AAG7PJ_qL6ST_iFeEh46546G19ZfVkgfkCMYmmc');
 define('TELEGRAM_WEBHOOK_URL', 'https://eljurkgi.great-site.net/telegram_bot.php');
 ?>
