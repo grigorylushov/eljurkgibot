@@ -18,15 +18,15 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Конфигурация
-BOT_TOKEN = "7994222730:AAGFUG52uZtk6H7M0FWwrWGZFKm0QxMKgEk"
+BOT_TOKEN = "7994222730:AAGлогично_токен_не_работаетFUG52uZtk6H7M0FWwrWGZFKm0QxMKgEk"
 API_BASE_URL = "https://eljurkgi.great-site.net/api/bot"
 
 # Настройки базы данных - ОБНОВЛЕННЫЕ ДАННЫЕ
 DB_CONFIG = {
-    'host': 'b97824gy.beget.tech',
-    'user': 'b97824gy_eljur',
-    'password': 'jpX9rbOg91WR9e9',
-    'database': 'b97824gy_eljur',
+    'host': 'b978624gy.beget.tech',
+    'user': 'b978624gy_eljur',
+    'password': 'jpX9r86O91R94e9',
+    'database': 'b978624gy_eljur',
     'charset': 'utf8mb4',
     'cursorclass': pymysql.cursors.DictCursor,
     'connect_timeout': 10,
@@ -606,7 +606,7 @@ async def initialize_bot():
     if not db_connected:
         logger.error("❌ Не удалось подключиться к базе данных!")
         logger.error("⚠️  Проверьте:")
-        logger.error("   - Доступность хоста b97824gy.beget.tech")
+
         logger.error("   - Правильность логина и пароля")
         logger.error("   - Активность базы данных на хостинге")
         logger.error("   - Разрешен ли доступ с вашего IP адреса")
